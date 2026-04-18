@@ -1,0 +1,13 @@
+{
+  "name": "hostellogic-webapp",
+  "version": "1.0.0",
+  "description": "HostelLogic Chatbot Web App",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google-cloud/dialogflow": "^6.4.0",
+    "uuid": "^9.0.1"
+  }
+}

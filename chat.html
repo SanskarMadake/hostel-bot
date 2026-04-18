@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - HostelLogic AI</title>
+    <meta name="description" content="Chat with HostelLogic AI.">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="chat-container glass-panel">
+        <header class="chat-header">
+            <div class="chat-header-title">
+                <i data-lucide="bot" style="color: var(--primary);"></i>
+                HostelLogic AI
+                <span class="status-dot"></span>
+            </div>
+            <a href="index.html" class="back-link">
+                <i data-lucide="home" style="width: 16px; height: 16px;"></i>
+                Home
+            </a>
+        </header>
+        
+        <main class="chat-messages" id="chat-messages">
+            <!-- Initial Greeting -->
+            <div class="message-box msg-bot">
+                Hello! I'm HostelLogic AI, your hostel assistant. How can I help you today?
+            </div>
+            <!-- Typing Indicator -->
+            <div class="typing-indicator" id="typing-indicator">
+                <span></span><span></span><span></span>
+            </div>
+        </main>
+        
+        <footer class="chat-input-area">
+            <input type="text" id="message-input" class="chat-input" placeholder="Type your message here..." autocomplete="off">
+            <button id="send-btn" class="btn-send">
+                <i data-lucide="send" style="width: 20px; height: 20px; margin-left: -2px;"></i>
+            </button>
+        </footer>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="js/app.js"></script>
+</body>
+</html>
