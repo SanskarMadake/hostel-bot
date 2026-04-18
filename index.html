@@ -3,27 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HostelLogic AI</title>
+    <title>HostelLogic AI - Smart Assistant</title>
     <meta name="description" content="Intelligent hostel management assistant.">
     <link rel="stylesheet" href="css/style.css">
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
-    <main class="hero">
-        <div class="glass-panel" style="padding: 4rem; max-width: 800px; width: 90%;">
-            <div style="background: var(--bot-msg-bg); width: 80px; height: 80px; border-radius: 20px; display: flex; align-items: center; justify-content: center; margin: 0 auto 2rem; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
-                <i data-lucide="bot" style="color: var(--primary); width: 40px; height: 40px;"></i>
+    <main class="landing-page">
+        
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="glass-panel text-center padding-large">
+                <div class="icon-wrapper">
+                    <i data-lucide="bot" class="hero-icon"></i>
+                </div>
+                <h1 class="hero-title">HostelLogic AI</h1>
+                <p class="hero-subtitle">
+                    Your intelligent companion for all things hostel-related. Experience seamless onboarding, rule clarifications, issue reporting, and mess service management, right at your fingertips.
+                </p>
+                <a href="chat.html" class="btn-primary">
+                    <span>Start Chatting</span>
+                    <i data-lucide="arrow-right" class="btn-icon"></i>
+                </a>
             </div>
-            <h1 class="hero-title">HostelLogic AI</h1>
-            <p class="hero-subtitle">
-                Your intelligent companion for all things hostel-related. Experience seamless onboarding, rule clarifications, issue reporting, and mess service management, right at your fingertips.
-            </p>
-            <a href="chat.html" class="btn-primary">
-                <span>Start Chatting</span>
-                <i data-lucide="arrow-right" style="width: 20px; height: 20px;"></i>
-            </a>
-        </div>
+        </section>
+
+        <!-- Objectives Section -->
+        <section class="objectives-section">
+            <div class="section-container">
+                <h2 class="section-title">Our Objectives</h2>
+                <div class="objectives-grid">
+                    <div class="glass-panel objective-card">
+                        <i data-lucide="target" class="card-icon text-primary"></i>
+                        <h3>Streamline Support</h3>
+                        <p>Provide instantaneous, 24/7 answers to common student questions, reducing the workload on hostel administration staff.</p>
+                    </div>
+                    <div class="glass-panel objective-card">
+                        <i data-lucide="zap" class="card-icon text-secondary"></i>
+                        <h3>Enhance Experience</h3>
+                        <p>Ensure that campus life is stress-free by giving students rapid access to crucial facility information and guidelines.</p>
+                    </div>
+                    <div class="glass-panel objective-card">
+                        <i data-lucide="shield-check" class="card-icon text-primary"></i>
+                        <h3>Maintain Clarity</h3>
+                        <p>Provide centralized, undisputed guidance regarding hostel rules to ensure all residents are comfortably on the same page.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features-section">
+            <div class="section-container">
+                <h2 class="section-title">Key Features</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <div class="feature-icon-box">
+                            <i data-lucide="compass" style="width: 28px; height: 28px;"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h4>Seamless Onboarding</h4>
+                            <p>Guides new arrivals through check-in procedures, facility tours, and daily orientations smoothly.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon-box">
+                            <i data-lucide="utensils" style="width: 28px; height: 28px;"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h4>Mess Management</h4>
+                            <p>Query daily mess menus, eating timings, and submit direct menu feedback natively inside the chat.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon-box">
+                            <i data-lucide="alert-circle" style="width: 28px; height: 28px;"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h4>Issue Reporting</h4>
+                            <p>Report maintenance, plumbing, electrical, or generic hygienic issues instantly via conversational forms.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon-box">
+                            <i data-lucide="book-open" style="width: 28px; height: 28px;"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h4>Rule Clarifications</h4>
+                            <p>An easily searchable breakdown of details on visitors, curfews, and general conduct policies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="footer">
+            <p>&copy; 2026 HostelLogic AI. Built with intelligence.</p>
+        </footer>
+
     </main>
 
     <script>
